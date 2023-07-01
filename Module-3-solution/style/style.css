@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#header-nav {
+    background-color: yellow;
+    border-radius: 0;
+    margin-left: 0;
+    border: 0;
+}
+
+#header-nav .container {
+    margin-left: 0;
+}
+
+#navbarSupportedContent .nav-item {
+    border: 3px solid;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.navbar-nav .nav-link.active {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* text-shadow: 1px 1px 1px 1px white; */
+}
+
+/*.navbar-nav .expand-nav-design {
+    border: 2px solid;
+    text-align: center;
+    text-shadow: #222;
+
+}*/
+
+.navbar-brand h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #448b18;
+    text-shadow: 1px 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: .75;
+    text-transform: uppercase;
+    /* vertical-align: ; */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+/* Desktop view larger than 992px*/
+@media all and (min-width:992px) {
+    .col-lg-4 {
+        width: 32%;
+        background-color: gray;
+        border: 2px solid black;
+        margin: 5px;
+    }
+}
+
+
+/* tablet view in between 991px & 768px*/
+@media all and (min-width: 768px) and (max-width:991px) {
+    .col-md-6 {
+        width: 48%;
+        background-color: gray;
+        border: 2px solid black;
+        margin: 5px;
+    }
+}
+
+/* mobile view less than 767px */
+@media all and (max-width:767px) {
+    .col-sm-12 {
+        width: auto;
+        /* clear: both; */
+        background-color: gray;
+        border: 2px solid black;
+        margin: 5px;
+    }
+
+}
+
+#beef {
+    border: 2px solid black;
+    border-top: none;
+    background-color: rgb(192, 15, 15);
+    text-align: center;
+    color: white;
+    width: 75px;
+    margin-left: -20px;
+}
+
+#chicken {
+    border: 2px solid black;
+    border-top: none;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    width: 75px;
+    margin-left: -20px;
+}
+
+#sushi {
+    border: 2px solid black;
+    border-top: none;
+    background-color: rgb(0, 102, 128);
+    text-align: center;
+    color: white;
+    width: 75px;
+    margin-left: -20px;
+}
+
+
+p {
+    clear: both;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* back to top button */
+
+.btn {
+    background-color: black;
+    color: red;
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* button hover */
+
+.btn:hover {
+    background-color: #0ba94e;
+    color: white;
+}
+
+/* button of chicken position */
+
+#bot1 {
+    margin-top: 55px;
+
+}
+
+/* button of beef position */
+
+#bot2 {
+    margin-top: 5px;
+}
+
+/*button of susi position  */
+
+#bot3 {
+    margin-top: 55px;
+}
